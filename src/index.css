@@ -30,9 +30,26 @@ body {
   min-height: 100vh;
 }
 
+#root {
+  width: 100%;
+}
+
+#main-container {
+  font-family: system-ui, Roboto, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  padding: 24px;
+  width: clamp(450px, 450px, 90%);
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  text-align: center;
 }
 
 h2,
@@ -53,11 +70,12 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #ffffff65;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+
+button[aria-pressed="true"] {
+  border: 1px solid #0000001e;
+  background-color: #ffffff03;
 }
 
 @media (prefers-color-scheme: light) {
