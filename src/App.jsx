@@ -116,6 +116,9 @@ export default function App() {
                       <p style={{ margin: 0 }}>
                         <strong>Obs.:</strong> {f.tip || "—"}
                       </p>
+                      <p>
+                        <strong style={{ margin: 0 }}>Scoring Route:</strong> {f.scoringRoute || "—"}
+                      </p>
                     </div>
                   </div>
                 )}
