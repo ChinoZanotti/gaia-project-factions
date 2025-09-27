@@ -18,13 +18,12 @@ React web app that summarizes key strategic data for Gaia Project factions and r
 
 ## Quick start
 
-`git clone https://github.com/your-user/gaia-project-factions.git`
-
-`cd gaia-project-factions`
-
-`npm install`
-
-`npm run dev`
+```
+git clone https://github.com/your-user/gaia-project-factions.git
+cd gaia-project-factions
+npm install
+npm run dev
+```
 
 ---
 
