@@ -43,7 +43,7 @@ body {
 
 .content {
   padding: 24px;
-  width: clamp(450px, 450px, 90%);
+  max-width: 450px;
 }
 
 h1 {

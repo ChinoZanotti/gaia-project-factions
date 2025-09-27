@@ -1,12 +1,22 @@
-# React + Vite
+Gaia Project Factions — Rank & Insights
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React web app that summarizes key strategic data for Gaia Project factions and ranks them by player count (2P/3P/4P).
 
-Currently, two official plugins are available:
+Highlights
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Strategic summaries per faction.
 
-## Expanding the ESLint configuration
+Player-count-based ranking with instant sorting.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Visual signals (++, +, ., -, --) mapped to colors.
+
+Fast rendering (Vite + React), responsive UI, keyboard accessible.
+
+Quick start
+
+git clone https://github.com/your-user/gaia-project-factions.git
+cd gaia-project-factions
+npm install
+npm run dev
+
+Disclaimer: Unofficial fan project. Gaia Project © respective owners. Licensed under MIT.
